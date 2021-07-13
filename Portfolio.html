@@ -1,0 +1,75 @@
+<!Doctype.html>
+<html>
+<head>
+<title> Portfolio </title>
+<meta charset="UTF-8">
+<meta name="viewport"
+content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+ul {
+   list-style-type: none;
+   position: fixed-right;
+   top: none;
+   margin: none;
+   padding: none;
+   overflow: hidden;
+   background-color: black;
+   }
+li {
+    float: right;
+   }
+li a {
+     display: block;
+     color: white;
+     text-align: right top;
+     padding: 14px 16px;
+     text-decoration: none;
+     }
+li a:hover:not(active) {
+           background-color: black;
+           }
+.active {
+        background-color: green;
+        }
+img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     border-radius: 50%;
+    }
+
+</style>
+<body>
+   
+   
+
+   <div class="banner">
+   
+     <video autoplay loop muted>
+        <source src="video.mp4" type="video/mp4">
+     </video>
+     
+     <div class="content">
+      <ul>
+         <li><a  href="contact.html" target="_self"> Contact </a></li>
+         <li><a  href="about.html" target="_self"> About </a></li>
+         <li><a  href="resume.html"target="_self"> Resume </a></li>
+         <li><a  class="active" href="Portfolio.html" target="_self"> Home </a></li>
+      </ul><br><br><br>
+            <h1>
+              <div class="container">
+              <div class="img-container">
+                <img src="don.jpg" alt="Photo profile">
+              </div>
+              <p class="full-name">Surya K</p>
+              <p class="role">MERN Full Stack Developer</p>
+              </div> 
+            </h1>
+      </div>
+   </div>
+
+</body>
+</html>
